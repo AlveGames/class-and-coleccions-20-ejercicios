@@ -20,3 +20,9 @@ class GestorPersonas:
 
     def edad_promedio(self):
         return sum(self.personas.values()) / len(self.personas)
+
+gp = GestorPersonas()
+gp.agregar_persona("Ana", 28)
+gp.agregar_persona("Bob", 17)
+print(gp.personas_mayores(18))     # ['Ana']
+print(gp.edad_promedio())          # 22.5

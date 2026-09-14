@@ -20,3 +20,11 @@ class Equipos:
             if mayor is None or len(jugadores) > len(self.equipos[mayor]):
                 mayor = nombre
         return mayor
+
+eq = Equipos()
+eq.crear_equipo("A")
+eq.agregar_jugador("A", "Juan")
+eq.agregar_jugador("A", "Pedro")
+eq.crear_equipo("B")
+eq.agregar_jugador("B", "Luis")
+print(eq.equipo_mayor_integrantes())   # A

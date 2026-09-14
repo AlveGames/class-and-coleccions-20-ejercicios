@@ -27,3 +27,6 @@ class AnalizadorString:
                 else:
                     consonantes += 1
         return {'vocales': vocales, 'consonantes': consonantes, 'digitos': digitos}
+
+astr = AnalizadorString()
+print(astr.contar_por_tipo("Hola123"))   # {'vocales': 2, 'consonantes': 2, 'digitos': 3}

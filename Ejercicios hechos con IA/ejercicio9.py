@@ -56,4 +56,4 @@ class AnalizadorString:
 
 
 astr = AnalizadorString()
-print(astr.contar_por_tipo("Hola123"))
+print(astr.contar_por_tipo("carioca321"))

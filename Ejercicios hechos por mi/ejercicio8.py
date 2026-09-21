@@ -1,3 +1,4 @@
+#intento 1...
 #--------------------Ejercicio propuesto:------------------------
 # Clase Inventario que:
 
